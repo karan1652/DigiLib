@@ -28,8 +28,8 @@ img {
 }
 
 #navbar img{
-  width: 258px;
-  height: 97px;
+  width: 100px;
+  height: 100px;
 }
 #navbar ul{
   display: flex;
@@ -46,13 +46,13 @@ img {
 }
 #navbar ul li a{
   text-decoration: none;
-  color: black;
-  font-size: 1.4rem;
+  color: rgb(255, 255, 255);
+  font-size: 1.8rem;
 }
 
 #navbar ul li a:hover{
   text-decoration: underline;
-  color:#A2133B;
+  color:#73f1f6;
 }
 
 .text-box{
@@ -71,14 +71,14 @@ img {
 
 .text-box p{
   margin: 10px 0 30px;
-  color: black;
+  color: rgb(255, 255, 255);
   font-size: 17px;
 }
 
 .hero-btn{
   text-decoration: none;
-  color: black;
-  border: 1px solid black;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
   padding: 10px 34px;
   font-size: 1rem;
   background: transparent;
@@ -138,7 +138,7 @@ h3{
 }
 
 .course-col:hover{
-  box-shadow: 2px 2px 20px 2px #A2133B;
+  box-shadow: 2px 2px 20px 2px #69eeee;
   cursor: pointer;
 }
 
