@@ -55,51 +55,6 @@ img {
   color:#73f1f6;
 }
 
-.text-box{
-  width: 61%;
-  color: black;
-  position: absolute;
-  text-align: center;
-  left: 20%;
-  top: 40%;
-  box-sizing: border-box;
-}
-
-.text-box h1{
-  font-size: 61px;
-}
-
-.text-box p{
-  margin: 10px 0 30px;
-  color: rgb(255, 255, 255);
-  font-size: 17px;
-}
-
-.hero-btn{
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  border: 1px solid rgb(255, 255, 255);
-  padding: 10px 34px;
-  font-size: 1rem;
-  background: transparent;
-  cursor: pointer;
-}
-
-.hero-btn:hover{
-  background: orange;
-  text-decoration: underline;
-  transition: 0.2s;
-}
-
-.course{
-  position: relative;
-  top: 625px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 
 h1{
   font-size: 35px;
@@ -121,15 +76,6 @@ p{
   align-items: center;
 }
 
-.course-col{
- background: #fff3f3;
- margin: 0px 26px;
- border-radius: 10px;
- margin-bottom: 5%;
- padding: 20px 12px;
- box-sizing: border-box;
- transition: 0.5s;
-}
 
 h3{
   text-align: center;
@@ -137,12 +83,7 @@ h3{
   margin: 10px  0; 
 }
 
-.course-col:hover{
-  box-shadow: 2px 2px 20px 2px #69eeee;
-  cursor: pointer;
-}
 
-/* Campus section */
 .campus{
   position: relative;
   top: 625px;
@@ -198,82 +139,6 @@ h3{
   opacity: 1;
 }
 
-/* Facilities section */
-.facilities{
-  position: relative;
-  top: 630px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 0px 60px;
-}
-
-.facilities-col{
-  flex-basis: 31%;
-  border-radius: 10px;
-  margin-bottom: 5%;
-  transition: 0.5s;
-}
-
-.facilities-col:hover{
-  box-shadow: 2px 2px 20px #A2133B;
-
-}
-
-.facilities-col img{
-  width: 100%;
-  border-radius: 10px;
-}
-
-.facilities-col p{
-  padding: 0;
-  text-align: left;
-}
-
-.facilities-col h3{
-  margin-top: 16px;
-  margin-bottom:15px;
-  text-align: left;
-}
-
-
-
-/* Call To Action section */
-.cta{
-  position: relative;
-  top: 625px;
-  margin: 75px auto;
-  text-align: center;
-  background:url(../images/banner2.jpg) no-repeat center center/cover;
-  border-radius: 10px;
-  padding: 50px 0;
-  width: 80%;
-}
-
-.cta h1{
-  color: #fff;
-  margin-bottom: 40px;
-  padding: 0;
-}
-
-/* Footer section */
-.footer{
-  position: relative;
-  top: 625px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  text-align: center;
-}
-
-.footer h4{
-  margin-bottom: 15px;
-  margin-top: 5px;
-  font-weight: 600;
-}
 
 .icons .fa-brands{
   color: #A2133B;
@@ -282,7 +147,7 @@ h3{
   cursor: pointer;
   padding: 18px 0;
 }
-/* Media Query */
+
 @media(max-width:700px){
   .text-box h1{
       font-size: 35px;
@@ -313,4 +178,20 @@ h3{
   .cta h1{
       font-size: 24px;
   }
+}
+
+.footer{
+  position: relative;
+  top: 625px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer h4{
+  margin-bottom: 15px;
+  margin-top: 5px;
+  font-weight: 600;
 }
